@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav,
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background: #2b2922;
+}
+
+nav {
+  padding: 30px 100px;
+}
+
+nav img {
+  width: 110px;
+  height: 40px;
+}
+
+.nav-right {
+  width: 60%;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  color: #fff;
+  width: 80%;
+}
+.nav-right button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #a08f36;
+  color: #a08f36;
+  font-weight: 600;
+  background: transparent;
+}
+
+/* hero */
+/* hero */
+/* hero */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background: #2b2922;
+  padding: 40px 100px 60px 100px;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 4.1rem;
+  letter-spacing: 1px;
+}
+
+.hero div {
+  display: flex;
+  justify-content: center;
+}
+.hero p {
+  color: #fff;
+  width: 60%;
+  line-height: 2;
+}
+
+.bg-image {
+  height: 75vh;
+  background: url("./assets/bg.png");
+  background-position: top top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  background: #2b2922;
+}
+
+.bottom div {
+  padding: 15px;
+  background: #39372d;
+}
+.bottom div:last-child {
+  background: #a08f36;
+}
+
+.bottom div i {
+  font-size: 40px;
+}
